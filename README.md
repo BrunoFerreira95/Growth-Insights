@@ -1,6 +1,4 @@
 # Growth-Insights
-# Donations Paypal
-brunoferreirapedraca@gmail.com
 
 # IP Tracking Middleware for Next.js
 
