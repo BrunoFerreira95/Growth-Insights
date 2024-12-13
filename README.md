@@ -1,4 +1,7 @@
 # Growth-Insights
+# Donations Paypal
+brunoferreirapedraca@gmail.com
+
 # IP Tracking Middleware for Next.js
 
 This middleware provides an easy and cost-free solution for tracking IP addresses and their geolocation on your website. It leverages free APIs and open-source tools, meaning you don’t need to pay for services like Google Cloud or configure tracking on Vercel. The idea is to capture user IPs and track their origin seamlessly.
