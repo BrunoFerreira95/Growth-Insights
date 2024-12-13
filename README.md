@@ -195,6 +195,6 @@ The map container is set to adjust its height dynamically based on the viewport'
 
 ## Visual Preview
 
-![IP Locations Map](/mapiplocation.png.png)
+![IP Locations Map](/mapiplocation.png)
 
 
