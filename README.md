@@ -173,4 +173,28 @@ From this data, you can see that the USA has the highest number of unique users,
 ## Conclusion
 This query is a powerful tool for extracting actionable insights from your IP tracking database. By understanding distinct user counts by country, you can make informed decisions to improve user experience, strengthen security, and expand your business efficiently.
 
+# IP Locations Map Page
+
+This page displays a map showing the locations of various IP addresses fetched from the Supabase database. The map uses OpenStreetMap as a tile layer and custom markers to visualize locations based on their latitude and longitude.
+
+## Key Features:
+
+- **Dynamic Map**: The map is responsive and adjusts its size based on the screen width and height.
+- **Interactive Markers**: Custom markers are placed on the map based on the location data retrieved from the database. Each marker displays the city, country, and hostname of the IP address when clicked.
+- **Responsive Design**: The map adjusts its height based on the viewport size to ensure a good user experience on both desktop and mobile devices.
+
+## How it Works:
+
+1. **Fetching Data**: The page fetches location data (`loc`, `city`, `country`, `hostname`) from a Supabase database.
+2. **Rendering the Map**: Using the `leaflet` library, a map is rendered and customized with OpenStreetMap tiles. The map is initialized with a zoom level of 2 and centered at `[0, 0]`.
+3. **Custom Markers**: For each location, a custom SVG marker is placed on the map. The marker's color is red, and it displays a circle with a black outline. A popup with the location details (city, country, hostname) is bound to each marker.
+
+## Responsive Layout:
+
+The map container is set to adjust its height dynamically based on the viewport's size, making it responsive on mobile and desktop. The map height is defined as 50% of the viewport height (`50vh`), which changes to 40% on tablet-sized screens and 30% on small mobile screens, thanks to media queries.
+
+## Visual Preview
+
+![IP Locations Map](/Growth-Insights.png)
+
 
